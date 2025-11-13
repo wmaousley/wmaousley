@@ -1,16 +1,13 @@
-## Hi there 👋
+# William Ousley | MiniCrit
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17594497.svg)](https://doi.org/10.5281/zenodo.17594497)
+[![Lambda Grant](https://img.shields.io/badge/Lambda-GPU%20Grantee-orange)](https://lambdalabs.com)
+[![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/)
 
-<!--
-**wmaousley/wmaousley** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Building institutional-grade autonomous trading engines with adversarial LLM critics.
+- **600-sentence open dataset** (FinRebut-600) – CC-BY-4.0
+- **MiniCrit-1.5B** – nightly retrained on 8×A100
+- **Live paper-trade Sharpe +0.8** vs +0.2 baseline
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🔗 Repo: https://github.com/wmaousley/MiniCrit-1.5B  
+📊 Dataset: https://huggingface.co/datasets/wmaousley/finrebut-600  
+📜 DOI: https://doi.org/10.5281/zenodo.17594497
