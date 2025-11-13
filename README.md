@@ -13,6 +13,6 @@ Building institutional-grade autonomous trading engines with adversarial LLM cri
 📜 DOI: https://doi.org/10.5281/zenodo.17594497
 
 ### 🏅 Certifications
-
+PMP CSIE CSAP | AI/ML Researcher | Building Trading Systems
 
 
