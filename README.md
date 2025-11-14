@@ -76,14 +76,19 @@ python src/training/train_lora.py --dataset data/finrebut-600.csv
 
 notebooks/ATAC_LoRA_MiniCrit.ipynb
 
-Ousley, W. A. (2025). MiniCrit-1.5B: Adversarial Financial Critic Model 
-and FinRebut-600 Dataset (v1.2.0) [Data set]. Zenodo.
+
+```markdown
+## 📄 Citation
+
+Ousley, W. A. (2025). *MiniCrit-1.5B: Adversarial Financial Critic Model
+and FinRebut-600 Dataset (v1.2.0)* [Data set]. Zenodo.  
 https://doi.org/10.5281/zenodo.17594497
 
+```bibtex
 @dataset{ousley2025minicrit,
   author       = {William A. Ousley},
-  title        = {{MiniCrit-1.5B: Adversarial Financial Critic Model and
-                   FinRebut-600 Dataset}},
+  title        = {MiniCrit-1.5B: Adversarial Financial Critic Model and
+                  FinRebut-600 Dataset},
   year         = 2025,
   version      = {1.2.0},
   publisher    = {Zenodo},
@@ -92,10 +97,12 @@ https://doi.org/10.5281/zenodo.17594497
 }
 
 
-🏅 Author
-William Alexander Ousley
-PMP • CSIE • CSAP
-AI/ML Researcher — Autonomous Trading Systems
+```markdown
+## 🏅 Author
+
+**William Alexander Ousley**  
+PMP • CSIE • CSAP  
+AI/ML Researcher — Autonomous Trading Systems  
 ORCID: https://orcid.org/0009-0009-2503-2010
 
 ---
