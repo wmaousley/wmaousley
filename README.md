@@ -1,10 +1,12 @@
 ███╗   ███╗██╗███╗   ██╗██╗ ██████╗██████╗ ██╗████████╗
 ████╗ ████║██║████╗  ██║██║██╔════╝██╔══██╗██║╚══██╔══╝
-██╔████╔██║██║██╔██╗ ██║██║██║     ██████╔╝██║   ██║   
-██║╚██╔╝██║██║██║╚██╗██║██║██║     ██╔══██╗██║   ██║   
-██║ ╚═╝ ██║██║██║ ╚████║██║╚██████╗██║  ██║██║   ██║   
-╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝   ╚═╝   
-         MiniCrit-1.5B — Adversarial Financial Critic
+██╔████╔██║██║██╔██╗ ██║██║██║     ██████╔╝██║   ██║
+██║╚██╔╝██║██║██║╚██╗██║██║██║     ██╔══██╗██║   ██║
+██║ ╚═╝ ██║██║██║ ╚████║██║╚██████╗██║  ██║██║   ██║
+╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝   ╚═╝
+
+        MiniCrit-1.5B — Adversarial Financial Critic
+
 
 # MiniCrit-1.5B  
 ### Adversarial Financial Critic Model for Autonomous LLM Trading Systems
@@ -153,5 +155,26 @@ This work is completely independent and not affiliated with any institution, emp
 - Prepare conference-style appendix (datasets, methods, ablations)
 
 ---
+## 🔄 System Workflow
+
+```mermaid
+flowchart TD
+
+A[User or LLM Generates Trading Rationale] --> B[MiniCrit Model]
+B --> C{Critique?}
+C -->|Weak Reasoning| D[Generate Rebuttal]
+C -->|Acceptable| E[Score & Pass Forward]
+
+D --> F[Store in FinRebut Dataset]
+F --> G[Nightly ATAC-LoRA Training]
+
+E --> H[Ensemble Validator]
+H --> I[Autonomous Trading Engine]
+
+If Mermaid is not rendered by GitHub on mobile, include this ASCII fallback underneath:
+
+[ Rationale ] → [ MiniCrit ] → { Acceptable? }
+| Yes → Score → Validator → Trade Engine
+| No → Rebuttal → Dataset → Nightly Training
 
 
