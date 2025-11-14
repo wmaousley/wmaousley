@@ -1,45 +1,6 @@
-<svg width="100%" height="180" viewBox="0 0 1200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-
-  <!-- Background -->
-  <rect width="1200" height="180" rx="8" fill="#0A0A0A"/>
-
-  <!-- Gradient Glow -->
-  <defs>
-    <linearGradient id="glow" x1="0" y1="0" x2="1200" y2="0">
-      <stop offset="0%" stop-color="#3a86ff"/>
-      <stop offset="50%" stop-color="#8338ec"/>
-      <stop offset="100%" stop-color="#ff006e"/>
-    </linearGradient>
-
-    <linearGradient id="textgrad" x1="0" y1="0" x2="0" y2="100%">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#d4d4d4"/>
-    </linearGradient>
-  </defs>
-
-  <!-- Bottom glow bar -->
-  <rect x="0" y="165" width="1200" height="6" fill="url(#glow)" />
-
-  <!-- Title -->
-  <text x="50%" y="70" text-anchor="middle"
-        font-family="Consolas, 'Courier New', monospace"
-        font-size="48"
-        fill="url(#textgrad)"
-        font-weight="700"
-        letter-spacing="3">
-    MiniCrit-1.5B
-  </text>
-
-  <!-- Subtitle -->
-  <text x="50%" y="120" text-anchor="middle"
-        font-family="Consolas, 'Courier New', monospace"
-        font-size="22"
-        fill="#bfbfbf"
-        letter-spacing="1">
-    Adversarial Financial Critic for Autonomous LLM Trading Systems
-  </text>
-
-</svg>
+<p align="center">
+  <img src="assets/banner.png" width="100%" />
+</p>
 
 
 
