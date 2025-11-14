@@ -1,5 +1,6 @@
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wmaousley/MiniCrit-1.5B/main/assets/Banner.png" width="100%" />
+  <img src="https://raw.githubusercontent.com/wmaousley/MiniCrit-1.5B/main/assets/banner.png" width="100%" />
 </p>
 
 
