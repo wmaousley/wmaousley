@@ -11,7 +11,8 @@
 [![DOI](https://zenodo.org/badge/1095074338.svg)](https://doi.org/10.5281/zenodo.17594497)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0009--2503--2010-brightgreen.svg)](https://orcid.org/0009-0009-2503-2010)
 [![HuggingFace Dataset](https://img.shields.io/badge/HuggingFace-FinRebut--600-yellow.svg)](https://huggingface.co/datasets/wmaousley/finrebut-600)
-[model-card/model-card.md](model-card/model-card.md)
+[![Model Card](https://img.shields.io/badge/Model%20Card-MiniCrit--1.5B-blue.svg)](model-card/model-card.md)
+
 ---
 
 ## 🔥 Overview  
