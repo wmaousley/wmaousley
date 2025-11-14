@@ -1,18 +1,93 @@
-# William Ousley | MiniCrit
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17594497.svg)](https://doi.org/10.5281/zenodo.17594497)
-[![Lambda Grant](https://img.shields.io/badge/Lambda-GPU%20Grantee-orange)](https://lambdalabs.com)
-[![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/)
+# MiniCrit-1.5B  
+### Adversarial Financial Critic Model for Autonomous LLM Trading Systems
 
-Building institutional-grade autonomous trading engines with adversarial LLM critics.
-- **600-sentence open dataset** (FinRebut-600) – CC-BY-4.0
-- **MiniCrit-1.5B** – nightly retrained on 8×A100
-- **Live paper-trade Sharpe +0.8** vs +0.2 baseline
+[![DOI](https://zenodo.org/badge/1095074338.svg)](https://doi.org/10.5281/zenodo.17594497)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0009--2503--2010-brightgreen.svg)](https://orcid.org/0009-0009-2503-2010)
+[![HuggingFace Dataset](https://img.shields.io/badge/HuggingFace-FinRebut--600-yellow.svg)](https://huggingface.co/datasets/wmaousley/finrebut-600)
 
-🔗 Repo: https://github.com/wmaousley/MiniCrit-1.5B  
-📊 Dataset: https://huggingface.co/datasets/wmaousley/finrebut-600  
-📜 DOI: https://doi.org/10.5281/zenodo.17594497
+---
 
-### 🏅 Certifications
-PMP CSIE CSAP | AI/ML Researcher | Building Trading Systems
+## 🔥 Overview  
+**MiniCrit-1.5B** is an adversarial financial critic model designed to evaluate, rebut, and stress-test LLM-generated trading rationales.  
+It functions as a *validator layer* inside multi-LLM autonomous trading engines.
+
+This repository contains:
+
+- **FinRebut-600** — 600 real, realistic human-style rationales & counter-arguments  
+- **0.5B LoRA critic checkpoint** (CPU-trainable)  
+- **Nightly training pipeline** (ATAC-LoRA style)  
+- **Research-ready notebook & scripts**  
+- **Zenodo DOI + ORCID integration** for grant & publication workflows  
+
+---
+
+## 📚 Project Links
+
+- 📦 **Repo:** https://github.com/wmaousley/MiniCrit-1.5B  
+- 📊 **Dataset (FinRebut-600):** https://huggingface.co/datasets/wmaousley/finrebut-600  
+- 📜 **Zenodo DOI:** https://doi.org/10.5281/zenodo.17594497  
+- 🧑‍🔬 **ORCID:** https://orcid.org/0009-0009-2503-2010  
+
+---
+
+## 🧠 Model Summary
+
+- **Model:** MiniCrit-1.5B (LoRA-extended financial critic)  
+- **Purpose:** Detect flawed reasoning, hallucinations, or weak logic in trading rationales  
+- **Training:** ATAC-LoRA pipeline, updated nightly  
+- **Hardware:** 8×A100 (Lambda grant target), CPU-trainable dev variant included  
+- **Performance:**  
+  - Paper-trading forward test: **Sharpe +0.8** vs **+0.2 baseline**  
+  - 600 curated sentences → adversarial rebuttal pairs  
+
+---
+
+## 📁 Repository Structure
+
+MiniCrit-1.5B/
+├── data/
+│ └── finrebut-600.csv
+├── notebooks/
+│ └── ATAC_LoRA_MiniCrit.ipynb
+├── checkpoints/
+│ └── minicrit_lora_0.5b.pt
+├── paper/
+│ └── minicrit_preprint.pdf
+└── src/
+└── training/
+
+
+
+---
+
+## 🚀 Quickstart
+
+```bash
+pip install -r requirements.txt
+python src/training/train_lora.py --dataset data/finrebut-600.csv
+
+notebooks/ATAC_LoRA_MiniCrit.ipynb
+
+Ousley, W. A. (2025). MiniCrit-1.5B: Adversarial Financial Critic Model 
+and FinRebut-600 Dataset (v1.2.0) [Data set]. Zenodo.
+https://doi.org/10.5281/zenodo.17594497
+
+@dataset{ousley2025minicrit,
+  author       = {William A. Ousley},
+  title        = {{MiniCrit-1.5B: Adversarial Financial Critic Model and
+                   FinRebut-600 Dataset}},
+  year         = 2025,
+  version      = {1.2.0},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.17594497},
+  url          = {https://doi.org/10.5281/zenodo.17594497}
+}
+
+
+🏅 Author
+William Alexander Ousley
+PMP • CSIE • CSAP
+AI/ML Researcher — Autonomous Trading Systems
+ORCID: https://orcid.org/0009-0009-2503-2010
 
 
