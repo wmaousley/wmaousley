@@ -8,7 +8,14 @@
 [![DOI](https://zenodo.org/badge/1095074338.svg)](https://doi.org/10.5281/zenodo.17594497)  
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0009--2503--2010-brightgreen.svg)](https://orcid.org/0009-0009-2503-2010)  
 [![HuggingFace Dataset](https://img.shields.io/badge/HuggingFace-FinRebut--600-yellow.svg)](https://huggingface.co/datasets/wmaousley/finrebut-600)  
-[![Model Card](https://img.shields.io/badge/Model%20Card-MiniCrit--1.5B-blue.svg)](model-card/model-card.md)
+[![Model Card](https://img.shields.io/badge/Model%20Card-MiniCrit--1.5B-blue.svg)](model-card/model-card.md)  
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)
+![Model Size](https://img.shields.io/badge/model-1.5B_parameters-purple.svg)
+![Dataset Size](https://img.shields.io/badge/dataset-600_samples-yellow.svg)
+[![GitHub Release](https://img.shields.io/github/v/release/wmaousley/MiniCrit-1.5B)](https://github.com/wmaousley/MiniCrit-1.5B/releases)
+
 
 
 ## 🔥 Overview
