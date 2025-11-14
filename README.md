@@ -90,4 +90,60 @@ PMP • CSIE • CSAP
 AI/ML Researcher — Autonomous Trading Systems
 ORCID: https://orcid.org/0009-0009-2503-2010
 
+---
+
+## 🤝 Contributors
+
+MiniCrit is an independent research project maintained by:
+
+- **William Alexander Ousley** — Creator, lead researcher, dataset engineer, and model developer.
+
+Community contributions (datasets, rebuttal samples, improvements to the LoRA pipeline, reproducibility fixes, etc.) are welcome.  
+Submit pull requests or open issues if you'd like to collaborate.
+
+---
+
+## 💠 Funding & Acknowledgements
+
+This project is part of an ongoing effort to build transparent, open-source adversarial evaluators for financial LLM systems.
+
+Special acknowledgements:
+
+- **Lambda Labs Research Grant (Pending Review)** — Application submitted for 2,000 A100-80GB compute hours for ATAC-LoRA scaling.
+- **CloudRift Research Grant (Under Review)** — Application submitted for 1,000 GPU hours.
+- **HuggingFace** — Hosting the FinRebut-600 dataset.
+- **Zenodo / CERN** — Providing DOI-based archival for v1.2.0.
+- **GitHub** — Repository distribution ecosystem.
+
+This work is completely independent and not affiliated with any institution, employer, or sponsor.
+
+---
+
+## 🧭 Project Roadmap (2025)
+
+**Phase 1 — Dataset Expansion (Q4 2025)**
+- Expand FinRebut-600 → **FinRebut-2000**
+- Add *high-volatility* and *macro-driven* rationale categories
+- Introduce multi-rater adjudication (LLM + human)
+
+**Phase 2 — Model Improvements**
+- Scale MiniCrit-1.5B → **MiniCrit-3B** (LoRA or QLoRA)
+- Add multi-LLM adversarial scoring (cross-model consensus)
+- Integrate chain-of-thought detection for hallucination traps
+
+**Phase 3 — Evaluation Framework**
+- Build a standalone **MiniCrit Evaluator API**
+- Create benchmark tasks for:
+  - fallacy detection  
+  - weak reasoning detection  
+  - hallucination classification  
+  - adversarial rebuttal generation
+
+**Phase 4 — Research Publication**
+- Draft full technical report (8–12 pages)
+- Publish on Zenodo / TechRxiv
+- Prepare conference-style appendix (datasets, methods, ablations)
+
+---
+
 
