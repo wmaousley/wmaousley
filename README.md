@@ -16,6 +16,15 @@
 ![Dataset Size](https://img.shields.io/badge/dataset-600_samples-yellow.svg)
 [![GitHub Release](https://img.shields.io/github/v/release/wmaousley/MiniCrit-1.5B)](https://github.com/wmaousley/MiniCrit-1.5B/releases)
 
+![LoRA](https://img.shields.io/badge/LoRA-Enabled-orange.svg)
+![ATAC-LoRA](https://img.shields.io/badge/ATAC--LoRA-Training%20Pipeline-red.svg)
+![Status](https://img.shields.io/badge/Status-Active-success.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)
+![Issues](https://img.shields.io/github/issues/wmaousley/MiniCrit-1.5B)
+![Stars](https://img.shields.io/github/stars/wmaousley/MiniCrit-1.5B?style=social)
+![Forks](https://img.shields.io/github/forks/wmaousley/MiniCrit-1.5B?style=social)
+![Visitors](https://komarev.com/ghpvc/?username=wmaousley&repo=MiniCrit-1.5B&style=flat)
+
 
 
 ## 🔥 Overview
