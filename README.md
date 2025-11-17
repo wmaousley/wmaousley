@@ -44,7 +44,9 @@ This repository includes:
 ## 📚 Project Links
 
 📦 **Repository:** https://github.com/wmaousley/MiniCrit-1.5B  
-📊 **Dataset (FinRebut-600):** https://huggingface.co/datasets/wmaousley/finrebut-600  
+📊 **Dataset (Training data: 12,132 institutional trading rationale-critique pairs
+Published: https://huggingface.co/datasets/wmaousley/minicrit-training-12k
+License: CC-BY-4.0 
 📜 **Zenodo DOI:** https://doi.org/10.5281/zenodo.17594497  
 🧑‍🔬 **ORCID Profile:** https://orcid.org/0009-0009-2503-2010  
 
