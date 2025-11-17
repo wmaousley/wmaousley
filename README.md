@@ -34,11 +34,6 @@ It functions as a *validator layer* inside multi-LLM autonomous trading engines.
 
 This repository includes:
 
-## Dataset
-- **Training data: 12,132 institutional trading rationale-critique pairs
-    Published: https://huggingface.co/datasets/wmaousley/minicrit-training-12k
-    License: CC-BY-4.0
-
 - **FinRebut-600** — 600 realistic rationales and adversarial rebuttals  
 - **0.5B LoRA critic checkpoint** (CPU-trainable)  
 - **Nightly ATAC-LoRA training pipeline**  
@@ -61,7 +56,9 @@ This repository includes:
 - **Purpose:** Detect flawed reasoning, hallucinations, weak logic, and missing evidence in LLM-generated trading rationales  
 - **Primary Role:** Acts as a *validator layer* inside a multi-LLM autonomous trading engine  
 - **Training Pipeline:** ATAC-LoRA (nightly retraining supported)  
-- **Dataset:** FinRebut-600 (600 rationale → rebuttal pairs)  
+- **Dataset:**Training data: 12,132 institutional trading rationale-critique pairs
+Published: https://huggingface.co/datasets/wmaousley/minicrit-training-12k
+License: CC-BY-4.0 
 - **Hardware Target:** 8×A100-80GB (requested via Lambda Labs Research Grant)  
 - **Included Artifacts:**  
   - CPU-trainable 0.5B LoRA critic checkpoint  
